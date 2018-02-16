@@ -17,7 +17,6 @@ namespace Warden.Integrations.Smtp
                 throw new ArgumentNullException(nameof(configuration),
                     "SMTP Integration configuration has not been provided.");
             }
-
             _configuration = configuration;
             _smtpService = _configuration.SmtpServiceProvider();
         }

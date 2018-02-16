@@ -10,6 +10,5 @@ namespace Warden.Integrations.Smtp.Tests
 {
     public class SmtpIntegration_specs
     {
-        
     }
 }
